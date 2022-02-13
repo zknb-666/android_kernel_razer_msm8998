@@ -654,7 +654,7 @@ long ext4_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)
 											 sizeof(range)))
 			return -EFAULT;
 
-		ret = ext4_trim_fs(sb, &range);
+		ret = ext4_trim_fs(sb, &range, flags);
 		if (ret < 0)
 			return ret;
 
