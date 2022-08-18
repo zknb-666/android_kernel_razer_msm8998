@@ -549,6 +549,8 @@
 		fpc,gpio_rst = <&tlmm 37 0x0>;
 		fpc,gpio_irq = <&tlmm 121 0x0>;
 
+		fpc,enable-wakeup;
+
 		pinctrl-names = "fpc1020_reset_reset",
 				"fpc1020_reset_active",
 				"fpc1020_irq_active";
