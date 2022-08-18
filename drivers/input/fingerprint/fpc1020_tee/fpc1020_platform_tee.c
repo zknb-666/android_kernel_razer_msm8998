@@ -360,7 +360,7 @@ static int fpc1020_probe(struct platform_device *pdev)
 	if (rc)
 		goto exit;
 
-	atomic_set(&fpc1020->wakeup_enabled, 0);
+	atomic_set(&fpc1020->wakeup_enabled, 1);
 
 	irqf = IRQF_TRIGGER_RISING | IRQF_ONESHOT;
 	if (of_property_read_bool(dev->of_node, "fpc,enable-wakeup")) {
