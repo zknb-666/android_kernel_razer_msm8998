@@ -1122,7 +1122,12 @@ ffs_epfile_open(struct inode *inode, struct file *file)
 	atomic_set(&epfile->opened, 1);
 	file->private_data = epfile;
 	ffs_data_opened(epfile->ffs);
+	smp_mb__before_atomic();
+	atomic_set(&epfile->error, 0);
+	first_read_done = false;
 
+	ffs_log("exit:state %d setup_state %d flag %lu", epfile->ffs->state,
+		epfile->ffs->setup_state, epfile->ffs->flags);
 
 	return stream_open(inode, file);
 }
