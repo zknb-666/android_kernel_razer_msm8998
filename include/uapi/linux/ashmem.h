@@ -1,1 +1,1 @@
-../../../drivers/staging/android/uapi/ashmem.h
+/media/zknb/work/gb/kernel/razer/msm8998/include/uapi/linux/ashmem.h

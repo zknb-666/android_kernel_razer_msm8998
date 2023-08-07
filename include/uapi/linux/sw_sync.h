@@ -1,1 +1,1 @@
-../../../drivers/staging/android/uapi/sw_sync.h
+/media/zknb/work/gb/kernel/razer/msm8998/include/uapi/linux/sw_sync.h

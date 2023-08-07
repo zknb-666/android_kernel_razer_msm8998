@@ -1,1 +1,1 @@
-../.././../../../../arch/powerpc/include/asm/asm-compat.h
+/media/zknb/work/gb/kernel/razer/msm8998/tools/testing/selftests/powerpc/primitives/asm/asm-compat.h

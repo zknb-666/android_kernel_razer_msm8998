@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/lib/memcpy_power7.S
+/media/zknb/work/gb/kernel/razer/msm8998/tools/testing/selftests/powerpc/copyloops/memcpy_power7.S

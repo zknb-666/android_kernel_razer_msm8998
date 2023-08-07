@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/lib/memcmp_64.S
+/media/zknb/work/gb/kernel/razer/msm8998/tools/testing/selftests/powerpc/stringloops/memcmp_64.S

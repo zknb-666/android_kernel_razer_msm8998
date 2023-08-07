@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/include/asm/word-at-a-time.h
+/media/zknb/work/gb/kernel/razer/msm8998/tools/testing/selftests/powerpc/primitives/word-at-a-time.h

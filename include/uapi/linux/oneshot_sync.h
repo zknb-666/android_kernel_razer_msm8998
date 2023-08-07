@@ -1,1 +1,1 @@
-../../../drivers/staging/android/uapi/oneshot_sync.h
+/media/zknb/work/gb/kernel/razer/msm8998/include/uapi/linux/oneshot_sync.h

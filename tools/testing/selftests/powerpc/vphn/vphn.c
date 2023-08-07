@@ -1,1 +1,1 @@
-../../../../../arch/powerpc/mm/vphn.c
+/media/zknb/work/gb/kernel/razer/msm8998/tools/testing/selftests/powerpc/vphn/vphn.c

@@ -1,1 +1,1 @@
-../../uapi/linux/input-event-codes.h
+/media/zknb/work/gb/kernel/razer/msm8998/include/dt-bindings/input/linux-event-codes.h

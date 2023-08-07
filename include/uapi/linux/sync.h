@@ -1,1 +1,1 @@
-../../../drivers/staging/android/uapi/sync.h
+/media/zknb/work/gb/kernel/razer/msm8998/include/uapi/linux/sync.h
